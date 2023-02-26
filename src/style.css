@@ -1,0 +1,46 @@
+.loading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h1 {
+  color: teal;
+  text-align: center;
+}
+
+.file-input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 25px;
+}
+.data-table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #fff;
+  color: #333;
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.data-table th {
+  background-color: #b0e0e6;
+  font-weight: bold;
+}
+.data-table tr:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.data-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
